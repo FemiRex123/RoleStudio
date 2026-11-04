@@ -1,0 +1,16 @@
+{
+  "name": "role-studio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Proof of Concept for hierarchical project and customer role planning",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "test": "node scripts/access-test.mjs"
+  }
+}
